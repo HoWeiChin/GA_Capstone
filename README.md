@@ -14,15 +14,15 @@
 
 ## Jupyter Notebooks
 Each notebook represents a step in the analytics process and there are 4 Jupyter Notebooks:
-  1. columns-selection-for-selected-csv-files.ipynb: this notebook removes unused columns from the original dataset.
-  2. duplicate-removal.ipynb: this notebook removes duplicates in the dataset.
-  3. extracting-instalment-payment-features.ipynb: this notebook extracts features for downstream classification and completed cash loan data for analysis.
-  4. default-prediction.ipynb: this notebook contains classification of defaulters or non-defaulters with logistic regression.
+  1. `columns-selection-for-selected-csv-files.ipynb`: this notebook removes unused columns from the original dataset.
+  2. `duplicate-removal.ipynb`: this notebook removes duplicates in the dataset.
+  3. `extracting-instalment-payment-features.ipynb`: this notebook extracts features for downstream classification and completed cash loan data for analysis.
+  4. `default-prediction.ipynb`: this notebook contains classification of defaulters or non-defaulters with logistic regression.
 
 ## Data links
 I used Kaggle Notebook to run my code as it offers more computing power. Thus, I needed to upload the Home Credit datasets to Kaggle and store intermediate and final datasets there.
 
 The following are links to the datasets I stored in Kaggle for my work:
   1. [raw-dataset](https://www.kaggle.com/datasets/wchohaw/raw-dataset): this link contains 4 csv files from Home Credit's original dataset.
-  2. [intermediate-dataset](https://www.kaggle.com/datasets/wchohaw/intermediate-dataset): this link contains 3 csv files produced by columns-selection-for-selected-csv-files.ipynb and duplicate-removal.ipynb.
-  3. [cleaned-dataset](https://www.kaggle.com/datasets/wchohaw/cleaned-dataset): this link contains 5 csv files produced by extracting-instalment-payment-features.ipynb.
+  2. [intermediate-dataset](https://www.kaggle.com/datasets/wchohaw/intermediate-dataset): this link contains 3 csv files produced by `columns-selection-for-selected-csv-files.ipynb` and `duplicate-removal.ipynb`.
+  3. [cleaned-dataset](https://www.kaggle.com/datasets/wchohaw/cleaned-dataset): this link contains 5 csv files produced by `extracting-instalment-payment-features.ipynb`.
